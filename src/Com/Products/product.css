@@ -1,0 +1,41 @@
+.product-items{
+      display: flex;
+      border-bottom: 2px solid gray ;
+      margin-bottom: 5px;
+      margin-left: 10px;
+      padding-bottom: 15px;
+    }
+
+.name{
+    color: rgb(2, 100, 94);
+}
+
+.Text-parts{
+    margin-left: 25px;
+    padding: 15px;
+    margin-top: 0px;
+}
+.lighter{
+    color: rgb(207, 41, 41);
+}
+.cart_button{
+    padding:5px 18px;
+    background-color: goldenrod;
+    color: rgb(41, 1, 1);
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.cart_button:hover{
+    padding:6px 19px;
+    background-color: rgb(231, 182, 57);
+    color: rgb(41, 1, 1);
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-weight: 500;
+}
+.light{
+    color: rgb(1, 49, 1);
+}
+
