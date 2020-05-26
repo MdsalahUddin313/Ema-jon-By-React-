@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Tue May 26 2020 22:05:29 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* src/Com/Product_imformation/Description.js
+* src/Com/Product_imformation/Pdescription.css
+
+
+Deleted files:
+
+
+Renamed files:
