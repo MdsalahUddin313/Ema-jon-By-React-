@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Tue May 26 2020 23:35:42 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/Com/Header.js
+* src/Com/Index/Index.js
+* src/Com/Product.js
+
+
+Created files:
+* .autogit/logs/log-26-4-2020-22-35-34.txt
+* src/Com/Product_imformation/Manage.js
+* src/Com/Product_imformation/Review.js
+* src/Com/Products/Error_page.js
+
+
+Deleted files:
+
+
+Renamed files:
