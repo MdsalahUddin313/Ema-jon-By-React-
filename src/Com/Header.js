@@ -1,26 +1,23 @@
 import React from 'react';
 import logo from '../Images/logo.png'
 import './Assets/style.css'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useParams
-  } from "react-router-dom";
+
+import Error_page from './Products/Error_page';
 
 const Header = () => {
     return (
         <div>
             <div class="header">
             <img class="images" src={logo} alt=""/>
-<Router><div>
+        
             <nav>
-                <a href="/Shop">Shop</a>
-                <a href="/Review">Order Review</a>
-                <a href="/Manage">Manage Inventory</a>
+                <a href="/Shop"><link to="/Shop"></link>Shop</a>
+                <a href="/Review"><link to="/Review"></link>Order Review</a>
+                <a href="/Manage"><link to="/Manage"></link>Manage Inventory</a>
             </nav>
-            </div></Router>
+            
+            
+           
             </div>
         </div>
     );

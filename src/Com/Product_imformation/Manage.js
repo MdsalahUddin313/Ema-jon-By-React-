@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Product = (props) => {
+const Manage = () => {
     return (
         <div>
-            
+            <h1>Manage Part</h1>
         </div>
     );
 };
 
-export default Product;
+export default Manage;

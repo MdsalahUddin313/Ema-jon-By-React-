@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Tue May 26 2020 22:35:34 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* src/Com/App.jsx
+* src/Com/Assets/style.css
+* src/Com/Header.js
+
+
+Created files:
+* .autogit/logs/log-26-4-2020-22-5-29.txt
+* src/Com/Index/Index.js
+
+
+Deleted files:
+* src/Com/Index.js
+
+
+Renamed files:
