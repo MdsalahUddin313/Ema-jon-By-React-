@@ -3,6 +3,7 @@ import Header from '../Header';
 import Shop from '../Shop';
 import Review from '../Product_imformation/Review'
 import Manage from '../Product_imformation/Manage'
+import Description from '../Product_imformation/Description'
 import {
     BrowserRouter as Router,
     Switch,
@@ -37,6 +38,11 @@ const Index = () => {
                 
                 <Route path="/Manage">
                     <Manage></Manage>
+                     
+                </Route>
+
+                <Route path="/Product/:Description">
+                    <Description></Description>
                      
                 </Route>
                 
