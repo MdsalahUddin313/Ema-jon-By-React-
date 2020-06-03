@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 const Description = () => {
-     const {productKey}=useParams();
+     const {productKey}=useParams(); 
     return (
         <div>
-           <h1>Description part</h1>            
+           <h1>{productKey}Description part</h1>            
         </div>
     );
 };
