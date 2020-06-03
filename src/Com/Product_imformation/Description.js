@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import fakeData from '../../fakeData';
 import Product from '../Products/Product';
+import './Pdescription.css'
 
 const Description = () => {
      const {Description}=useParams(); 
@@ -11,6 +12,7 @@ const Description = () => {
     return (
         <div>
            <h1>Your Product </h1>
+           <img src={Product_details.img} alt=""></img>
            <Product 
            showButton={false}
            Product={Product_details}></Product>
