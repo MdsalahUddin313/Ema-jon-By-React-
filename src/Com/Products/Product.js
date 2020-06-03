@@ -23,10 +23,10 @@ const Product = (props) => {
             <p>{seller}</p>
             <p>wholePrice:${wholePrice}</p>
             <p>Star:{star} <span class="lighter">Star-Count:</span>{starCount}</p>
-            <button class="cart_button"
+            { props.showButton===true && <button class="cart_button"
             onClick={()=>props.handleAddproduct(props.Product)}
-            ><FontAwesomeIcon icon={faShoppingCart}/>Add To Cart</button>
-            </div>
+            ><FontAwesomeIcon icon={faShoppingCart}/>Add To Cart</button>}
+          </div>
            
         </div>
     );

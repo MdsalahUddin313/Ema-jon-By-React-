@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import fakeData from '../../fakeData';
+import Product from '../Products/Product';
 
 const Description = () => {
      const {Description}=useParams(); 
@@ -9,9 +10,11 @@ const Description = () => {
      console.log(Product_details);
     return (
         <div>
-           <h1>{Description}Description part</h1> 
-           <img src={Product_details.img} alt=""></img>
-    <h1>{Product_details.name}</h1>           
+           <h1>Your Product </h1>
+           <Product 
+           showButton={false}
+           Product={Product_details}></Product>
+            
         </div>
     );
 };
