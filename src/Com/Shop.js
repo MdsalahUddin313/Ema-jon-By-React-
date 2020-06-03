@@ -4,15 +4,20 @@ import './shop.css'
 import Product from './Products/Product';
 import Properties from './Products/Properties'
 import Cart_item from './Products/Cart_item';
+import { addToDatabaseCart } from '../utilities/databaseManager';
 
 const Shop = () => {
     const first10=fakeData.slice(0,10);
     const [products, setProducts] = useState(first10);
     const [Cart, setCart] = useState([]);
+    
 
 
 const handleAddproduct=(product)=>{
        const newCart=[...Cart,product];
+       const similerProduct= newCart.filter(pd=>pd.key===product.key);
+       const count=similerProduct.length;
+      addToDatabaseCart(product.key,count);
        setCart(newCart);
 }
     
