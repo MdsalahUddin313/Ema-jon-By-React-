@@ -1,8 +1,11 @@
-h1{
+.header_part{
     text-align: center;
     background-color: honeydew;
     padding: 15px 40px;
     margin-left: auto;
+}
+.name{
+    padding:0px 35px;
 }
 .images{
     display: block;
@@ -19,7 +22,25 @@ h1{
 }
 
 .btn{
-    padding: 15px 45px;
-    background-color: gold;
+    padding: 5px 25px;
+    background-color: goldenrod;
+    font-size: 25px;
+    border-radius: 6px;
     color: indigo;
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.btn:hover{
+    padding: 6px 27px;
+    background-color: gold;
+    font-size: 25px;
+    border-radius: 6px;
+    color: rgb(99, 20, 155);
+}
+.container{
+    margin-bottom: 35px;
+    margin-top: 0px;
 }

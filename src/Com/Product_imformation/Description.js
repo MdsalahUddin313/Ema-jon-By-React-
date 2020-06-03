@@ -10,13 +10,13 @@ const Description = () => {
      const Product_details=fakeData.find(pd=>pd.key===Description);
      console.log(Product_details);
     return (
-        <div>
-           <h1>Your <span class="lighter">Product</span> </h1>
+        <div class="container">
+           <h1 class="header_part">Your <span class="lighter">Product</span> </h1>
            <div>
            <img class="images" src={Product_details.img} alt=""></img>
            </div>
            <div class="center">
-           <h2>{Product_details.name}</h2>
+           <h2 class="name">{Product_details.name}</h2>
             <h4>Seller:{Product_details.seller}</h4>
             <h4>Shipping:{Product_details.shipping}</h4>
             <p>Star:{Product_details.star}</p>
@@ -26,11 +26,9 @@ const Description = () => {
             <p>Price:{Product_details.price}</p>
             </div>
            <div class="center">
-            <button class="btn">Visit Sites</button>
+            <button class="btn"><a href={Product_details.url}>Visit Sites</a></button>
             </div>
-           <Product 
-           showButton={false}
-           Product={Product_details}></Product>
+         
             
         </div>
     );
@@ -40,6 +38,11 @@ export default Description;
 
 
 /*
+
+  <Product 
+           showButton={false}
+           Product={Product_details}></Product>
+
 price: 169.99
 priceFraction: "99"
 seller: "Nikon"
